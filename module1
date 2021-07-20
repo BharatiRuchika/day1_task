@@ -1,0 +1,15 @@
+Q.1) List 5 difference between BrowserJs and NodeJs
+1.Browser.js is mainly used for client-side applications like validations on a web page or dynamic page display and as the name suggests it gets executed in the browser only
+while in the case of Node.js javascript code gets executed outside the browser as it is an interpreter as well as an environment for running javascript and used for server-side applications.
+
+2.Browser.js is used for frontend while Node.js is used for backend applications.
+
+3.Node.js has full system access i.e can read and write directly to the file system like any other application that also concludes that we can write complete software using Node.js while Browser.js is sandboxed for the safety purposes and have access limited to the browser. 
+
+4. DOM manipulation related API like document.getElementById(), document.createElement(), etc will not available in Node.JS because Node.JS is server side technology and we don't need HTML DOM related thing in server side.
+API to create HTTP & TCP server: http.createServer() and net.createServer will not be available in Browser because we don't create a server in the browser.
+
+5.Node.js has built-in libraries for HTTP and socket communication with which it can create a web server and thus be a replacement for other types of servers such as. Apache or Nginx
+Node.js does not have browser APIs related to DOM, CSS, performance, document, as well as all APIs associated with the "window" object. Precisely because of the lack of a window object, the global object was renamed "global".
+
+Q.2) 
